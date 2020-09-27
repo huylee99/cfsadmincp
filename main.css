@@ -1,0 +1,43 @@
+.modal-dialog {
+    z-index: 10000000;
+}
+
+.modal-dialog {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.card {
+    width: 100%;
+}
+
+.style-btn {
+    margin-right: 1rem;
+}
+
+.login-form {
+    display: none;
+}
+
+#logout {
+    margin-bottom: 2rem;
+}
