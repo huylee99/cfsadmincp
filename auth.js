@@ -1,7 +1,9 @@
 // get data
 auth.onAuthStateChanged((user) => {
   if (user) {
-    db.collection("confession").onSnapshot((snapshot) => {
+    db.collection("confession")
+    .orderBy('created_at')
+    .onSnapshot((snapshot) => {
       snapshot.docChanges().forEach((change) => {
         if (change.type === "added") {
           showList(change.doc);
