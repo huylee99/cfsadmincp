@@ -19,7 +19,9 @@ li {
 }
 
 .card {
-    width: 100%;
+    width: 100%;.
+    height: 100vh;
+    margin-top: 200px;
 }
 
 .style-btn {
@@ -37,5 +39,3 @@ li {
 .card-body {
 height: 100vh;
 }
-
-
