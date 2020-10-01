@@ -10,6 +10,8 @@ body {
 
 ul {
     padding-left: 0;
+    height: 100%;
+    overflow-y: scroll;
 }
 
 li {
@@ -31,3 +33,9 @@ li {
 #logout {
     margin-bottom: 2rem;
 }
+
+.card-body {
+height: 100vh;
+}
+
+
